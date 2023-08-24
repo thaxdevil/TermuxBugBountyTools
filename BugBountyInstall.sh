@@ -1,0 +1,50 @@
+repositories=(
+   "https://github.com/rbsec/dnscan"
+   "https://github.com/guelfoweb/knock"
+   "https://github.com/aboul3la/Sublist3r"
+
+https://github.com/rbsec/dnscan
+https://github.com/guelfoweb/knock
+https://github.com/aboul3la/Sublist3r
+https://github.com/blechschmidt/massdns
+https://github.com/robertdavidgraham/masscan
+https://github.com/ChrisTruncer/EyeWitness
+https://github.com/maurosoria/dirsearch
+https://github.com/michenriksen/gitrob
+https://github.com/awslabs/git-secrets
+https://github.com/yasinS/sandcastle
+https://github.com/ZephrFish/GoogD0rker/
+https://github.com/1N3/Sn1per/
+https://github.com/evilsocket/xray
+https://github.com/xmendez/wfuzz/
+https://github.com/lanjelot/patator
+https://github.com/DataSploit/datasploit
+https://github.com/ztgrace/changeme
+https://github.com/MobSF/Mobile-Security-Framework-MobSF/ 
+https://github.com/iBotPeaches/Apktool
+https://sourceforge.net/projects/dex2jar/
+https://github.com/BuffaloWill/oxml_xxe/
+https://github.com/enjoiz/XXEinjector
+https://github.com/ticarpi/jwt_tool
+https://github.com/jobertabma/ground-control
+https://github.com/JacobReynolds/ssrfDetector
+https://github.com/D35m0nd142/LFISuite
+https://github.com/internetwache/GitTools
+https://github.com/kost/dvcs-ripper
+https://github.com/anshumanbh/tko-subs
+https://github.com/nahamsec/HostileSubBruteforcer
+https://github.com/insp3ctre/race-the-web
+https://github.com/GoSecure/ysoserial
+https://github.com/ambionics/phpggc
+https://github.com/RUB-NDS/CORStest
+https://github.com/RetireJS/retire.js
+https://github.com/vulnersCom/getsploit
+https://github.com/1N3/Findsploit
+https://github.com/mazen160/bfac
+https://github.com/Dionach/CMSmap
+https://github.com/OWASP/Amass
+)
+
+for repo in "${repositories[@]}"; do
+   git clone "$repo"
+done
